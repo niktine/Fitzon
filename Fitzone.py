@@ -44,7 +44,7 @@ class MyApp(App):
         btn5 = Button(text='lower back', background_color=(1, 0.4, 0.4, 1), font_size=20)
         btn6 = Button(text='leg raise', background_color=(1, 0.4, 0.4, 1), font_size=20)
         btn7 = Button(text='push ups', background_color=(1, 0.4, 0.4, 1), font_size=20)
-        btn8 = Button(text='squats_pose()', background_color=(1, 0.4, 0.4, 1), font_size=20)
+        btn8 = Button(text='squats pose', background_color=(1, 0.4, 0.4, 1), font_size=20)
 
         btn5.bind(on_press=lower_back_pose)
         btn6.bind(on_press=leg_raise_pose)
