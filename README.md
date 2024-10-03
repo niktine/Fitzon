@@ -1,7 +1,5 @@
 # 🎉 Sports Movement Checker 🎉
 
-![GitHub Stars](https://img.shields.io/github/stars/niktine/Fitzon?style=social) ![GitHub Forks](https://img.shields.io/github/forks/niktine/Fitzon?style=social) ![GitHub Issues](https://img.shields.io/github/issues/niktine/Fitzon) ![GitHub License](https://img.shields.io/github/license/niktine/Fitzon)
-
 ## 🌟 Overview
 
 The **Sports Movement Checker** is an innovative Python application designed to analyze and evaluate sports movements in real-time. It leverages advanced computer vision techniques to ensure athletes perform their movements correctly, promoting better form and reducing the risk of injury.
@@ -21,7 +19,7 @@ The **Sports Movement Checker** is an innovative Python application designed to 
 - **NumPy**: For efficient numerical operations.
 
 ## 📥 Installation Packages
-pip install -r requirements.txt
+```pip install -r requirements.txt
 
 
 ### Clone the Repository
