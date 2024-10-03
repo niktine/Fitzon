@@ -7,7 +7,7 @@ from kivy.core.window import Window
 from exercise_pose import *
 
 
-class MyApp(App):
+class Fitzon(App):
     def build(self):
        
         Window.clearcolor = (1, 1, 1, 1)
@@ -67,4 +67,4 @@ class MyApp(App):
 
 
 if __name__ == '__main__':
-    MyApp().run()
+    Fitzon().run()
