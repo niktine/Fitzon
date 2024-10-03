@@ -9,20 +9,20 @@ from exercise_pose import *
 
 class MyApp(App):
     def build(self):
-        # تغییر رنگ پس‌زمینه برنامه
-        Window.clearcolor = (1, 1, 1, 1)  # سفید
+       
+        Window.clearcolor = (1, 1, 1, 1)
 
-        # لایه اصلی که شامل عکس و دکمه‌ها است
+       
         main_layout = BoxLayout(orientation='vertical', padding=20, spacing=10)
 
-        # افزودن یک عکس بزرگ در بالای صفحه
+      
         img = Image(source='phooto1.png', size_hint=(1, 0.7), allow_stretch=True)
         main_layout.add_widget(img)
 
-        # لایه دکمه‌ها که از دو بخش چپ و راست تشکیل شده
+      
         button_container = BoxLayout(orientation='horizontal', size_hint=(1, 0.3), spacing=10)
 
-        # بخش دکمه‌های سمت چپ
+     
         left_buttons = BoxLayout(orientation='vertical', spacing=10)
         btn1 = Button(text='dumbbell', background_color=(0.2, 0.6, 1, 1), font_size=20)
         btn2 = Button(text='fly', background_color=(0.2, 0.6, 1, 1), font_size=20)
@@ -39,7 +39,7 @@ class MyApp(App):
         left_buttons.add_widget(btn3)
         left_buttons.add_widget(btn4)
 
-        # بخش دکمه‌های سمت راست
+    
         right_buttons = BoxLayout(orientation='vertical', spacing=10)
         btn5 = Button(text='lower back', background_color=(1, 0.4, 0.4, 1), font_size=20)
         btn6 = Button(text='leg raise', background_color=(1, 0.4, 0.4, 1), font_size=20)
@@ -56,11 +56,11 @@ class MyApp(App):
         right_buttons.add_widget(btn7)
         right_buttons.add_widget(btn8)
 
-        # افزودن دو بخش چپ و راست به لایه اصلی دکمه‌ها
+   
         button_container.add_widget(left_buttons)
         button_container.add_widget(right_buttons)
 
-        # افزودن لایه دکمه‌ها به لایه اصلی
+    
         main_layout.add_widget(button_container)
 
         return main_layout
