@@ -18,9 +18,6 @@ The **Sports Movement Checker** is an innovative Python application designed to 
 - **OpenCV**: For powerful image processing and real-time movement detection.
 - **NumPy**: For efficient numerical operations.
 
-## 📥 Installation Packages
-```pip install -r requirements.txt
-
 
 ### Clone the Repository
 
